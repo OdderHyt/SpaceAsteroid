@@ -1,0 +1,9 @@
+Lection 2
+---------------
+I Prefab folderen finder du et game object "Asteroid".
+Du kan trække det ind i spil scenen og duplikere det med Ctrl + d
+
+Player kan collidere med Asteroids
+I PLayerControllerStudent.cs finder du en function der hedder OnCollision2DEnter()
+I den kan du sætte hvordan Player skal opføre sig når den collidere med andre objecter som Asteroids
+Sæt op så Player dør (blir destroyed) på collision.

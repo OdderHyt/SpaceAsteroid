@@ -1,0 +1,11 @@
+Lection 4
+-----------
+I StudentScripts finder du et script der hedder SpawnerStudent.cs. 
+
+I det kan du bruge den linje der allerede er skrevet til at lave flere asteroider
+
+Brug if/else statements til at lave en timer der periodisk laver nye asteroider
+
+Som bonus opgave kan du også sætte op så asteroiderne starter med en retning og en fart når du Instantiater dem.
+
+Som bonus bonus opgave kan du finde på en ny condition der laver nye asteroider.

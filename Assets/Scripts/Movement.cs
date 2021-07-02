@@ -20,11 +20,11 @@ public class Movement : MonoBehaviour
     }
 
     public void TurnLeft() {
-        transform.Rotate(0f,0f, Time.deltaTime * TurningSpeed);
+        transform.Rotate(0f,0f,  TurningSpeed * Time.deltaTime);
     }
 
     public void TurnRight() {
-        transform.Rotate(0f,0f, -Time.deltaTime * TurningSpeed);
+        transform.Rotate(0f,0f, -TurningSpeed * Time.deltaTime);
 
     }
 }

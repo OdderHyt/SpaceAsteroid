@@ -1,0 +1,7 @@
+Lection 1
+-------------------
+I folderen StudentScripts åben PlayerControllerStudent.cs, fyld ind de manglende functioner så rumskibet kan flyve rundt.
+
+Du kan også justere TurningSpeed og MovementSpeed i Unity inspectoren hvis du kigger på Player game objectet.
+
+(Eksemple på færdigt script i Scripts folderen)

@@ -1,0 +1,8 @@
+Lection 3
+---------------
+I Prefabs finde du ShipFireParticles, et game object som laver en masse små particler.
+Du kan trække den ind på Player i din Scene.
+Når du flyver rundt sender Player nu particler ud.
+
+Du kan også tilføje particler til andre objecter som Asteroid eller et object du selv har lavet.
+Leg rundt med particle systemet og sæt det op som du gerne vil ha det (ex. Blå ild, dit eget sprite, flere eller færre particler)

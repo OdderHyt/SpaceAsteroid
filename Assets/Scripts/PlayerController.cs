@@ -25,4 +25,10 @@ public class PlayerController : MonoBehaviour
             movement.TurnLeft();
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        Destroy(gameObject);
+    }
 }
+
+
