@@ -13,6 +13,8 @@ public class Spawner : MonoBehaviour
 
         newAsteroid.transform.Rotate(0f, 0f, Random.Range(0f, 360f));
 
+
+        //AsteroidSpeed = Random.Range(1, 10);
         Vector2 AsteroidVelocity = newAsteroid.transform.up * AsteroidSpeed;
 
         newAsteroid.AddForce(AsteroidVelocity, ForceMode2D.Impulse);
