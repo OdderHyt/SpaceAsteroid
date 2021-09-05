@@ -1,0 +1,5 @@
+Lection 5
+-----------
+I Prefab folderen kan du finde et Bullet prefab. Den har allerede et BulletBehaviour script der øddelægger alle asteroider den kollidere med.
+
+I PlayerControllerStudent, tilføj kode der, når du trykker på en knap af dit valg, instantiater Bullet prefab'en. Giv den en fart og samme retning som skibet når den blir instantiated.
