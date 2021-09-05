@@ -8,10 +8,13 @@ public class PointManager : MonoBehaviour
     public Text pointDisplay;
     public string displayText = "Points: ";
     public int points;
-    private static PointManager Instance;
+    public static PointManager Instance;
 
     private void Awake() {
-        if (Instance == null) {
+        if (Instance != null && Instance != this) {
+            
+            Destroy(gameObject);
+        } else {
             DontDestroyOnLoad(gameObject);
             Instance = this;
         }
