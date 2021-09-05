@@ -1,0 +1,7 @@
+Lection 7
+-----------
+I PointManagerStudent scriptet er der 2 tomme functioner AddPoints() og ResetPoints()
+AddPoints() blir kaldt på når et skud rammer en asteroide.
+Få AddPoints() til at tilføje det givne parameter til totalPoints og display dem på skærmen så spilleren kan følge med i
+hvor mange point de har. AddPoints blir kaldt på når et skud rammer en asteroide.
+ResetPoints() skal sætte spillerens point tilbage til 0.

@@ -1,0 +1,8 @@
+Lection 8
+-----------
+Tilføj en Game Over skærm der viser spillerens Score og en knap der genstarter spillet uden
+at skulle bruge unitys inspector.
+
+Der er ikke nogen rigigt måde at gøre det på, men en god ide ville være at skifte mellem en "spil" scene og en "game over" scene
+Point er gemt i point manageren og du kan hente dens totalPoints variable med: 
+PointManagerStudent.Instance.totalPoints

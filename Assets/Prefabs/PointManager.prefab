@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1493319223251864867}
-  - component: {fileID: 7944733593986076436}
+  - component: {fileID: -2351165224784152502}
   m_Layer: 0
   m_Name: PointManager
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7944733593986076436
+--- !u!114 &-2351165224784152502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,9 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4059736427073304399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1a369ca22843c04191bdd04d912997c, type: 3}
+  m_Script: {fileID: 11500000, guid: 23c7bcbc8d3aa5a4b9f0b4c917af18f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pointDisplay: {fileID: 0}
   displayText: 'Points: '
-  points: 0
+  totalPoints: 0

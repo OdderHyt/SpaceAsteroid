@@ -1,0 +1,11 @@
+Lection 6
+-----------
+Tilføj selv en ny knap der lægger Bombe prefab'en, lige som med Bullet prefab'en.
+BombStudent skriptet gemmer alle objekter den rammer i dens radius til "hits" arrayed.
+Brug et loop til at gå igennem alle elementerne i arrayed og øddelæg dem.
+
+Bonus
+Kan du stoppe bomben fra at også øddelægge spillern, skud og spil væggene?
+
+Bonus Bonus
+Leg med particle systemet eller bombens andre egenskaber til du er tilfreds med dem.

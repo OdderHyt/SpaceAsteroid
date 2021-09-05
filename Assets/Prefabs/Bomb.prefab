@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2926546603284543616}
   - component: {fileID: 5487007777132485317}
   - component: {fileID: 5778392631190063234}
-  - component: {fileID: 4833817373718934239}
   - component: {fileID: 6770140224966096654}
   - component: {fileID: -5943533877392393442}
+  - component: {fileID: 6823470590332142744}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -124,21 +124,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4833817373718934239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6479183862876119215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78a49ad91d68eea4fbfa8a0bdc30b572, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TimeToBlow: 2.5
-  explosionSize: 2
-  particleSystem: {fileID: 6770140224966096654}
 --- !u!198 &6770140224966096654
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4912,3 +4897,18 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &6823470590332142744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6479183862876119215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f856c92386d220b41b28bc809d0c0dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeToBlow: 2.5
+  explosionSize: 2
+  particleSystem: {fileID: 6770140224966096654}
