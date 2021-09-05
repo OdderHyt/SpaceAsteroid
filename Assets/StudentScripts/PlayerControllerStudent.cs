@@ -10,7 +10,7 @@ public class PlayerControllerStudent : MonoBehaviour
     }
 
     //Lection 1
-    //Indsæt de passende functioner neden under så skibet kan styres :))
+    //Indsæt de passende functioner neden under så skibet kan styres.
     //movement.Forward() og movement.Backward() accelerere skibet frem of tilbage
     //
     //movement.TurnLeft() og movement.TurnRight() drejer på skibet.
